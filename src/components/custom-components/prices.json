@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_custom_components_prices",
+  "info": {
+    "displayName": "Prices"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "decimal"
+    },
+    "size": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

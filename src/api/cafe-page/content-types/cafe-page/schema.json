@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "cafe_pages",
+  "info": {
+    "singularName": "cafe-page",
+    "pluralName": "cafe-pages",
+    "displayName": "CafePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "custom-components.hero",
+      "required": true
+    }
+  }
+}

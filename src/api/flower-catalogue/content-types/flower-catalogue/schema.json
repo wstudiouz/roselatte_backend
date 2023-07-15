@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flower_catalogues",
+  "info": {
+    "singularName": "flower-catalogue",
+    "pluralName": "flower-catalogues",
+    "displayName": "FlowerCatalogue"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_en": {
+      "type": "string",
+      "required": true
+    },
+    "title_cz": {
+      "type": "string",
+      "required": true
+    },
+    "flowers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::flower.flower",
+      "mappedBy": "catalogue"
+    }
+  }
+}

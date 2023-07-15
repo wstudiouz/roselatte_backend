@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_about_get_ideas",
+  "info": {
+    "displayName": "GetIdeas"
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string",
+      "required": true
+    },
+    "desc_en": {
+      "type": "text",
+      "required": true
+    },
+    "title_cz": {
+      "type": "string",
+      "required": true
+    },
+    "desc_cz": {
+      "type": "text",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

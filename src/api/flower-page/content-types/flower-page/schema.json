@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "flower_pages",
+  "info": {
+    "singularName": "flower-page",
+    "pluralName": "flower-pages",
+    "displayName": "FlowerPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "custom-components.hero",
+      "required": true
+    },
+    "Bouquets": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.get-ideas",
+      "required": true
+    }
+  }
+}

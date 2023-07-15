@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_custom_components_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text_en": {
+      "type": "string",
+      "required": true
+    },
+    "desc_en": {
+      "type": "string",
+      "required": true
+    },
+    "text_cz": {
+      "type": "string",
+      "required": true
+    },
+    "desc_cz": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
